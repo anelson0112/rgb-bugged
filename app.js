@@ -25,9 +25,9 @@ Initialize the beginning setup of the game
 function init(){
 	setupModeButtons();
 	setupSquares();
-	var lsScore = localStorage.getItem('score');
+	var lsScore = localStorage.getItem('score',score);
 	if( lsScore !== null ){
-		score = lsScore; 
+		score = Number(lsScore); 
 		scoreDisplay.textContent = score;
 	}
 	else {
@@ -71,7 +71,7 @@ function setupSquares(){
 				scoreDisplay.textContent = score;
 				localStorage.setItem('score', score);
 			} else {
-				this.style.background = "#232323";
+				this.style.background = "none";
 				messageDisplay.textContent = "Try Again"
 				score--;
 				scoreDisplay.textContent = score; 
