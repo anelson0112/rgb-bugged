@@ -7,3 +7,12 @@ For this assignment you will be doing something like the google developers debug
   * Links to materials used to complete the assignment: 
     * https://developer.mozilla.org/en-US/docs/Mozilla/Debugging/Debugging_JavaScript
     * https://developers.google.com/web/tools/chrome-devtools/javascript
+
+  First commit, changed   
+  if(clickedColor ===  pickedColor) from = to ===
+
+  Second commit, changed loop in changedColors function to start at 0.
+
+  
+
+
