@@ -71,7 +71,8 @@ function setupSquares(){
 				scoreDisplay.textContent = score;
 				localStorage.setItem('score', score);
 			} else {
-				this.style.background = "none";
+				this.style.background =  "none";
+				this.style.pointerevents = "none";
 				messageDisplay.textContent = "Try Again"
 				score--;
 				scoreDisplay.textContent = score; 
